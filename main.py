@@ -7,13 +7,13 @@ from PIL import Image  # For handling image display
 # streamlit run main.py 👉 to run the app
 
 # to train your bot with specific data 👇
-# https://platform.openai.com/playground/assistants?thread=thread_kFtSLg51uV1lNLJsYVaigepM
+# https://platform.openai.com/assistants
 
 # Enter your Assistant ID here.
-ASSISTANT_ID = "asst_LVywvZsHlugPIXVMtdG96PHr"
+ASSISTANT_ID = "enter_your_assistant_id"
 
 # Initialize the OpenAI client
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key=os.getenv("enter_your_environmental_variable_with_openai_api_key"))
 
 # Streamlit app UI
 st.title("Study AI Chatbot")
